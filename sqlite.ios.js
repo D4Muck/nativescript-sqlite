@@ -787,7 +787,7 @@ Database.VALUESARENATIVE = 4;
 Database.VALUESARESTRINGS = 8;
 
 var exp = {
-    Database: Database
+    openDatabase: Database
 };
 
 module.exports = exp;
