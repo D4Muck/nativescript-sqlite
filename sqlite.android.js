@@ -856,7 +856,9 @@ Database.VALUESARENATIVE = 4;
 Database.VALUESARESTRINGS = 8;
 
 var exp = {
-    openDatabase: Database
+    openDatabase: function (name) {
+        return new Database(name);
+    }
 };
 
 module.exports = exp;
