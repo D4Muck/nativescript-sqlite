@@ -855,7 +855,11 @@ Database.RESULTSASOBJECT = 2;
 Database.VALUESARENATIVE = 4;
 Database.VALUESARESTRINGS = 8;
 
-module.exports = Database;
+var exp = {
+    Database: Database
+};
+
+module.exports = exp;
 
 /**
  * gets the current application context

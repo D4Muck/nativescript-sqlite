@@ -1,1 +1,3 @@
-declare module "nativescript-sqlite";
+export class Database {
+    constructor(name:string)
+}
